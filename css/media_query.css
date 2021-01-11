@@ -1,0 +1,108 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  /* CSS */
+
+  
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+ .filterDiv {
+    color: #ffffff;
+    text-align: center;
+    margin: 8px;
+    display: none;
+    padding: 5px;
+    display: contents;
+  }
+
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    
+    text-align: center;
+    font-family: arial;
+  }
+  .mapinst {
+    background: linear-gradient(0deg, rgb(23 212 214) 0%, rgb(82 243 176) 100%);
+    border-radius: 2px;
+    display: inline-block;
+    height: auto;
+    margin: 1rem;
+    position: relative;
+    padding: 15px;
+    width: 53%;
+  }
+  .desi1 {
+    text-align: center;
+    margin-top: 15%;
+  }
+
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  .content {
+    position: relative;
+    margin-top: 0px;
+    text-align: center;
+  }
+
+  #mobilr1 {
+    margin-top: 46%;
+    margin-left: 20px;
+}
+#fully {
+    float: none;
+    margin-left: -60px;
+}
+  
+}
